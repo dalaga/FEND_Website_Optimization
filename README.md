@@ -9,7 +9,8 @@ Open the index.html file with a browser. Chrome is recommended so you may use th
 4) Minified perfmatter.js with http://www.minifier.org/
 5) Resized and compressed images with FileOptimizer
 6) Inlined style.css into index.html
-7) Removed external font link and inlined font API
+7) Removed external font link to Font API. (Redirect error goes away)
+    **note:  also changed all the http: to https for the font API link and it was not stable for speed test.
 
 --Modifications for main.js --
 1) Change in updatePositions function:
